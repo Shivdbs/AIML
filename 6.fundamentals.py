@@ -30,7 +30,7 @@ print(word[2:4])
 print("sum of {1} & {0} is {2}".format(a,b,sum))
 
 #value based formatting
-
+ś
 print("{a} values if vars {a} & {b}".format(a=5,b=10))
 
 
