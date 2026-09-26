@@ -15,4 +15,5 @@ for val in tup:
     sum+=val
 print(f"sum of the vals is{sum}")
 
-tup.
+print(tup.index(2))
+print(tup.count(2))

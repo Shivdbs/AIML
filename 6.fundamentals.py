@@ -13,24 +13,24 @@ print(word[2])
 
 print(word[2:4])
 
- sent="fjnvn efnjer  gjkeng qeq "
+sent="fjnvn efnjer  gjkeng qeq "
 
- print(sent[:len(word)])
+print(sent[:len(word)])
 
  #string formatting
 
- a=5
- b=10
- sum=a+b#normal formatting
- print("language is{}".format("python"))
+a=5
+b=10
+sum=a+b#normal formatting
+print("language is{}".format("python"))
 
- print("Sum of {} & {} is {}".format(a,b,sum))
+print("Sum of {} & {} is {}".format(a,b,sum))
 
- index based formatting
+#index based formatting
 print("sum of {1} & {0} is {2}".format(a,b,sum))
 
 #value based formatting
-ś
+
 print("{a} values if vars {a} & {b}".format(a=5,b=10))
 
 
