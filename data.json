@@ -1,0 +1,9 @@
+{
+  "name": "Shivam",
+  "isStudent": true,
+  "address": {
+    "city": "Delhi",
+    "country": "India"
+  },
+  "subjects": ["Python","AIML"]
+}
