@@ -83,3 +83,23 @@ def calculator(a, b, operation):
         print(a/b)
 
 #9
+
+def isPrime(n):
+    if n<2:
+        return False
+    for i in range(2,n):
+        if n%i == 0:
+            return False
+    return False
+#10 Number guessing game
+
+secret=7
+guess=int(input("Guess the Number: "))
+if guess > secret:
+    print("Too high")
+
+elif guess <secret:
+    print("Too low")
+
+else:
+    print("Correct")
